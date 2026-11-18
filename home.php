@@ -1,7 +1,7 @@
 <?php
 /**
  * Blog posts index (the page set as "Posts page" in Settings > Reading).
- * WordPress picks this before index.php, which in this theme is a static design mockup.
+ * WordPress picks this before index.php, the generic fallback template.
  */
 get_header(); ?>
 
