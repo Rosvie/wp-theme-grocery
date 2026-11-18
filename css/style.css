@@ -1043,6 +1043,16 @@ a[href^="mailto:"]:hover small {
   min-height: 803px;
   padding: 0;
 }
+/* The tall min-height is only for the homepage slider; inner pages size to their banner image */
+.non_home_page .bnr_con {
+  min-height: auto;
+}
+.non_home_page #main_area {
+  background: #fff;
+}
+.non_home_page img.aligncenter {
+  display: none;
+}
 
 .box_skitter {
   display: block;
