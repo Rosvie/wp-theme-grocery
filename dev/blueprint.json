@@ -1,0 +1,42 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Crave Corner — theme demo",
+		"description": "Installs the Crave Corner theme from GitHub and loads the demo pages, blog posts and menus.",
+		"author": "Rosvie"
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/Rosvie/wp-theme-grocery",
+				"ref": "main",
+				"refType": "branch"
+			},
+			"options": {
+				"activate": true,
+				"targetFolderName": "crave-corner"
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"permalink_structure": "/%postname%"
+			}
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp eval-file /wordpress/wp-content/themes/crave-corner/dev/seed.php"
+		}
+	]
+}

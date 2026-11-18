@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="732" height="160" viewBox="0 0 732 160" role="img" aria-labelledby="t">
+	<title id="t">Crave Corner</title>
+	<!-- badge: shopping basket -->
+	<circle cx="76" cy="80" r="70" fill="#ff7f00"/>
+	<circle cx="76" cy="80" r="60" fill="none" stroke="#fff" stroke-width="3" opacity=".6"/>
+	<path d="M50 70a26 26 0 0 1 52 0" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+	<path d="M34 68h84l-10 44a6 6 0 0 1-6 5H50a6 6 0 0 1-6-5z" fill="#fff"/>
+	<path d="M60 80v26M76 80v26M92 80v26" stroke="#ff7f00" stroke-width="6" stroke-linecap="round"/>
+	<!-- wordmark -->
+	<text x="168" y="112" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#ff7f00" textLength="268" lengthAdjust="spacingAndGlyphs">CRAVE</text>
+	<text x="458" y="112" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#161616" textLength="270" lengthAdjust="spacingAndGlyphs">CORNER</text>
+</svg>
