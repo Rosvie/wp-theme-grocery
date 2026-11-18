@@ -14,7 +14,7 @@
   <title><?php echo get_bloginfo('name');?></title>
 
 
-  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css?ver=<?php echo filemtime( get_template_directory() . '/style.css' ); ?>">
+  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/style.css?ver=<?php echo filemtime( get_template_directory() . '/css/style.css' ); ?>">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/hamburgers.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/media.css?ver=<?php echo filemtime( get_template_directory() . '/css/media.css' ); ?>">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/rslides.min.css">
